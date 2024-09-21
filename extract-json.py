@@ -8,6 +8,7 @@ data = []
 for repository in repositories:
   data.append({
     "name": repository["name"],
+    "url": repository["url"],
     "description": repository["description"],
     "created_at": repository["created_at"],
     "updated_at": repository["updated_at"],
